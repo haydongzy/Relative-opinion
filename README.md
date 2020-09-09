@@ -11,7 +11,7 @@ Social media has become an emerging alternative to opinion polls for public opin
 
 Input: raw tweet json file
 
-Script: USelection_mapper_tabs.py
+Script: USPE2016_get_tweets.py
 
 Output: csv table with the following columns
 [tw_id, user_id, country_code, place_full_name, place_name, place_type, place_bounding_box, tw_coor, quoted_status_user_id, in_reply_to_user_id, retweeted_user_id, mentioned_user_ids, text_message]
@@ -20,7 +20,7 @@ Output: csv table with the following columns
 
 Input: csv table from step 1 and identified hashtags for candidates
 
-Script: get_hashtag.py
+Script: create_training_data.py
 
 Output: Two text file for candidates and one vocab csv file
 
