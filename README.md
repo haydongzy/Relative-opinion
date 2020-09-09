@@ -1,4 +1,4 @@
-# Relative-opinion
+# Relative opinion
 Measuring relative opinion from location-based social media
 
 The codes here are derived from the work in the article: Gong Z, Cai T, Thill J-C, Hale S, Graham M (2020) Measuring relative opinion from location-based social media: A case study of the 2016 U.S. presidential election. PLoS ONE 15(5): e0233660. https://doi.org/10.1371/journal.pone.0233660
