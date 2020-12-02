@@ -60,12 +60,12 @@ def extract_hash_tags(s):
 
 ################################################################################
 ### Read in tweet file
-tw = pd.read_csv('~/Workspace/mark20171023.txt', delimiter='\t', header=None, skipinitialspace=True, quoting=3)
-mcol = dict(zip(range(3,14), range(2,13)))
-mcol[2]=14
-tw = tw.rename(columns=mcol)
-idx9_11 = tw[14].apply(lambda x: (x.split()[1]) in set(['Oct', 'Nov', 'Sep']))
-tweets = tw[idx9_11]
+tweets = pd.read_csv('USelect_sample.txt', delimiter='\t', header=None, skipinitialspace=True, quoting=3)
+# mcol = dict(zip(range(3,14), range(2,13)))
+# mcol[2]=14
+# tw = tw.rename(columns=mcol)
+# idx9_11 = tw[14].apply(lambda x: (x.split()[1]) in set(['Oct', 'Nov', 'Sep']))
+# tweets = tw[idx9_11]
 
 ### Extract hashtags from tweets and calculate some statistics
 ht = {}
